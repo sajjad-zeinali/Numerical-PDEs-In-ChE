@@ -20,7 +20,9 @@ x = np.linspace(0, L, Nx)
 dx = x[1] - x[0]
 
 # Initial temperature distribution
-T_init = 150 + 50 * np.sin(np.pi * x / L)
+T_init = 200 + 50 * np.sin(np.pi * x / L)
+T_init[0] = T0
+T_init[-1] = T_L
 
 # PDE function (Method of Lines)
 def rhs_pde(t, T):
@@ -51,6 +53,5 @@ plt.colorbar(label='Temperature (°C)')
 plt.xlabel('Position (x)')
 plt.ylabel('Time (t)')
 plt.title('Temperature Distribution in the Rod')
-plt.savefig('result.png')
 
 plt.show()

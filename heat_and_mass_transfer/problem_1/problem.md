@@ -2,7 +2,7 @@
 
 A **1-meter-long** rod experiences **heat conduction** over time. The temperature at the left end (**x = 0**) is **100°C**, and at the right end (**x = L = 1 m**), it is **200°C**. The initial temperature distribution along the rod is given by:
 
-### T(x, 0) = 150 + 50 sin(πx/L)
+### T(x, 0) = 200 + 50 sin(πx/L)
 
 The rod's material properties are:
 
