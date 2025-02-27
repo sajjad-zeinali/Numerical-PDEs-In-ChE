@@ -9,20 +9,29 @@ PDEs are the backbone of chemical engineering processes, and solving them numeri
 
 ## What's Inside?
 This repo organizes PDE problems into clear categories, each targeting a key area of chemical engineering. Here’s what we have (and what’s coming):
-- **`heat_and_mass_transfer`**: Models heat and mass transport phenomena.
+
+- **`heat_and_mass_transfer`**: Models heat and mass transport phenomena.  
   - *Problem 1*: Temperature evolution in a 1-meter rod with fixed boundary conditions.
-- **`reaction_diffusion`**: Explores systems with chemical reactions and diffusion.
+
+- **`reaction_diffusion`**: Explores systems with chemical reactions and diffusion.  
   - *Problem 1*: 1D simulation of mass and heat transfer with a temperature-dependent reaction.
-- **`reactor_design_and_kinetics`**: Focuses on reactor modeling and reaction kinetics (coming soon!).
+
+- **`fluid_dynamics`**: Investigates fluid flow and dynamics in chemical engineering systems.  
+  - *Problem 1*: 1D laminar flow between parallel plates under a constant pressure gradient.
+
+- **`reactor_design_and_kinetics`**: Focuses on reactor modeling and reaction kinetics (coming soon!).  
   - *Problem 1*: TBD — stay tuned!
-- **`process_design_and_simulation`**: Covers large-scale process simulations (coming soon!).
+
+- **`process_design_and_simulation`**: Covers large-scale process simulations (coming soon!).  
   - *Problem 1*: TBD — stay tuned!
-- **`misc_and_advanced_topics`**: Catches unique or advanced PDE challenges (coming soon!).
+
+- **`misc_and_advanced_topics`**: Catches unique or advanced PDE challenges (coming soon!).  
   - *Problem 1*: TBD — stay tuned!
+
 More problems and categories will be added over time — think of this as a living toolbox for ChE PDEs!
 
 ## Get Started
-1. Clone the repo: `git clone <repo-url>`
+1. Clone the repo: `git clone https://github.com/sajjad-zeinali/Numerical-PDEs-In-ChE.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Explore the problem folders and run the scripts!
 
