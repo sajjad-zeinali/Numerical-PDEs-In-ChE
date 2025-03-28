@@ -11,7 +11,8 @@ PDEs are the backbone of chemical engineering processes, and solving them numeri
 This repo organizes PDE problems into clear categories, each targeting a key area of chemical engineering. Here’s what we have (and what’s coming):
 
 - **`heat_and_mass_transfer`**: Models heat and mass transport phenomena.  
-  - *Problem 1*: Temperature evolution in a 1-meter rod with fixed boundary conditions.
+  - *Problem 1*: Temperature evolution in a 1-meter rod with fixed boundary conditions.  
+  - *Problem 2*: 2D heat transfer in a square plate with heat flux and insulated boundaries.
 
 - **`reaction_diffusion`**: Explores systems with chemical reactions and diffusion.  
   - *Problem 1*: 1D simulation of mass and heat transfer with a temperature-dependent reaction.
