@@ -18,8 +18,9 @@ This repo organizes PDE problems into clear categories, each targeting a key are
   - *Problem 1*: 1D simulation of mass and heat transfer with a temperature-dependent reaction.
 
 - **`fluid_dynamics`**: Investigates fluid flow and dynamics in chemical engineering systems.  
-  - *Problem 1*: 1D laminar flow between parallel plates under a constant pressure gradient.
-
+  - *Problem 1*: 1D laminar flow between parallel plates under a constant pressure gradient.  
+  - *Problem 2*: Two-phase flow pressure drop in a vertical pipe using the homogeneous model.
+  
 - **`reactor_design_and_kinetics`**: Focuses on reactor modeling and reaction kinetics (coming soon!).  
   - *Problem 1*: TBD — stay tuned!
 
